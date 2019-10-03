@@ -109,16 +109,16 @@ In this final step of the project, the non Personalized recommendation system is
 
 ![title](insght_summary.png)
 
-# Implementation of ML Model and Recommendation Engine: Overview
+# ML Models and Recommendation Engine: Overview
 
 > **ML Modeling Results**
 
-- The Surpise package from sklearn  was used in this project to develop collaborative filterning based recommendation system. In the first step of modeling, KNN modeling was applied to different size of datasets ranging from 10,0000 to 250,000 at an increment of 10,000 observation in each step. It was found that there is no siginificant imporvement of the RMSE score with the increase in datasize for modeling. The RMSE score was found to be stable (between 0.88 - 0.9) for datasize > 50,000. Therefore, it was extrapolated that training the ML models on a dataset  with 100,000 observations will reliably predict the underlying patterns for the entire dataset. 
+- The Surpise package from sklearn  was used in this project to develop collaborative filterning based recommendation system. In the first step of modeling, KNN modeling was applied to different size of datasets ranging from 10,0000 to 250,000 at an increment of 10,000 observation in each step. It was found that there is no siginificant imporvement of the RMSE score with the increase in datasize for modeling. The RMSE score was found to be stable (between 0.88 - 0.9) for datasize > 50,000. Therefore, it was extrapolated that training the ML models on a dataset  with 100,000 observations will reliably capture the underlying patterns for the entire dataset. 
 
 
 - All three algorithms ( SVD, KNN anf NMF) considered for ML modeling were found to have better RMSE scores compared to the baseline ML model (i.e. Normal Predict). Grid search also seemed to help the prediction accuracy for KNN and SVD. SVD was found to be the best performing model after grid search and was used to predict user's rating for personalized recommendation. Below is a summary of findings from modeling.
 
-- Comparison of the histogram of actual ratings and the ratings predicted by SVD shows that the model predicts the distribution of the ratings fairly well. Both distribution shows that users tend to rate books mostly 4 or higher, and then mean of the ratings in the test dataset lies between 4 and 5.
+- Comparison of the histogram of actual ratings and the ratings predicted by SVD shows that the model predicts the distribution of the ratings fairly well. Both actual and predicted rating distribution show that users tend to rate books mostly 4 or higher, and the mean of the ratings in the test dataset lies between 4 and 5.
 
 
 ![title](Modeling_Summary.png)
