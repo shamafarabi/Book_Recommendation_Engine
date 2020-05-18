@@ -4,11 +4,11 @@
 # Introduction
 
 Recommendation engines have laid the foundation of every major tech company around us that provides retail, video-on-demand or music streaming service and thus redefined the way we shop, search for an old friend, find new music or places to go to. From finding the best product in the market to searching for an old friend online or listening to songs while driving, recommender systems are everywhere. A recommender system helps to filter vast amount of information from all users and item database to individual’s preference.  For example, Amazon uses it to suggest products to customers, and Spotify uses it to decide which song to play next for a user. 
-
+{: style="text-align: justify"}
 Book reading apps like Goodreads has personally helped me to find books I couldn’t put away and thus getting back to the habit of reading regularly again. While a lot of datasets for movies (Netflix, Movielens) or songs have been explored previously to understand how recommendation engine works for those applications and what are the scopes of future improvement, book recommendation engines have been relatively less explored.
-
+{: style="text-align: justify"}
 The primary goal of this project is to develop a collaborative book recommendation model using goodreads dataset that can suggest readers what books to read next. Additionally, data wrangling and exploratory data analysis will be utilized to draw insights about users reading preferences (e.g. how they like to tag, what ratings they usually provide etc.)  and current trends in the book market (book categories  that are in demand,  successful authors in the market etc.). 
-
+{: style="text-align: justify"}
 # Key Development Goals
 
 The recommendation system should have the following capabilities <br>
